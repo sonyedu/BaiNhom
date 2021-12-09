@@ -1,0 +1,29 @@
+
+#menu:checked + #menu1 {
+    display: block;
+}
+
+.hover\:grow {
+    transition: all 0.3s;
+    transform: scale(1);
+}
+
+.hover\:grow:hover {
+    transform: scale(1.02);
+}
+
+body {
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .product:hover {
+        transform: scale(1.03);
+    }
+}
+
+.flex {
+    justify-content: space-between;
+}
